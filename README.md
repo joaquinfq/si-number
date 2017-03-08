@@ -18,7 +18,7 @@ You can pass a configuration object as second parameter with the following keys:
 ```js
 const siNumber = require('si-number');
 
-// 2.5 centimeters, without thousands and forcing to use thousands scale.
+// 2.5 centimeters, without thousands scale.
 console.log(
     '%sm',
     siNumber(
@@ -28,6 +28,7 @@ console.log(
         }
     )
 ); // 2.5cm
+// 2.5 centimeters, using thousands scale.
 console.log(
     '%sm',
     siNumber(
