@@ -1,0 +1,21 @@
+{
+    "version"     : "0.1.0",
+    "name"        : "si-number",
+    "author"      : "Joaquín Fernández",
+    "description" : "Formats numbers using SI prefixes.",
+    "keywords"    : [
+        "pretty",
+        "formatter",
+        "number",
+        "SI"
+    ],
+    "license"     : "MIT",
+    "homepage"    : "http://www.joaquinfernandez.net",
+    "repository"  : {
+        "type" : "git",
+        "url"  : "https://github.com/joaquinfq/si-number"
+    },
+    "scripts"     : {
+        "test" : "node test"
+    }
+}
